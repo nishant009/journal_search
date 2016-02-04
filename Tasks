@@ -1,0 +1,18 @@
+- Setup the database
+  -- Install Mongo DB
+  -- Figure out schema
+  -- Write script to load data
+  -- Load data
+- CRUD APIs
+  -- Install docker
+  -- Write tests and API endpoints
+- Micro API
+  -- Figure out response for suggest
+  -- Write tests and code for suggest
+- Caching
+  -- Install redis.
+  -- Cache suggest results
+  -- Set timeout of 60 seconds
+- Traffic shaping
+  -- Install HaProxy
+  -- Implement traffic shaping
