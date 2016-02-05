@@ -11,18 +11,21 @@ class SeedDataLoader:
     self.host = host
     self.port = port
     self.seed_file_name = seed_file_name
+    self.client = None
+    self.__initMongoClient()
 
   def __readData(self):
     with open(self.seed_file_name, 'r') as stream:
       return stream.read().splitlines()
 
-  def __getMongoClient(self):
-    return MongoClient(self.host, self.port)
+  def __initMongoClient(self):
+    if not self.client:
+      self.client = MongoClient(self.host, self.port)
 
   def processEntries(self):
     today = datetime.today()
 
-    journals = self.__getMongoClient().journal_search.journals
+    journals = self.client.journal_search.journals
 
     for name in self.__readData():
       record = {'name': name, 'created_at': today.now(), 'updated_at': today.now()}

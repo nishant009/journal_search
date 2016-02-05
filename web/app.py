@@ -3,6 +3,8 @@
 from flask import Flask
 from flask import request, render_template
 
+from journal_client import JournalClient
+
 app = Flask(__name__)
 
 @app.route("/")
@@ -11,7 +13,7 @@ def index():
 
 @app.route("/v1/journals", methods=['GET'])
 def list_journals():
-  return "This method should list journals"
+  return render_template('journal_list.html', journals=JournalClient().list_journals())
 
 @app.route("/v1/journals", methods=['POST'])
 def add_journal():

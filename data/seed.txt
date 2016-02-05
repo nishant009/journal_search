@@ -54,7 +54,7 @@ American Journal of Critical Care
 American Journal of Enology and Viticulture
 American Journal of Epidemiology
 American Journal of Evaluation
-American Journal of Health­System Pharmacy
+American Journal of Health-System Pharmacy
 American Journal of Hospice and Palliative Medicine
 American Journal of Hypertension
 The American Journal of Jurisprudence
@@ -63,14 +63,14 @@ American Journal of Lifestyle Medicine
 American Journal of Medical Quality
 American Journal of Men's Health
 American Journal of Neuroradiology
-American Journal of Physiology ­ Cell Physiology
-American Journal of Physiology ­ Endocrinology and Metabolism
-American Journal of Physiology ­ Gastrointestinal and Liver Physiology
-American Journal of Physiology ­ Heart and Circulatory Physiology
-American Journal of Physiology ­ Lung Cellular and Molecular Physiology
-American Journal of Physiology ­ Regulatory, Integrative and Comparative Physiology
-American Journal of Physiology ­ Renal Physiology
-American Journal of Physiology ­­ Legacy Content
+American Journal of Physiology - Cell Physiology
+American Journal of Physiology - Endocrinology and Metabolism
+American Journal of Physiology - Gastrointestinal and Liver Physiology
+American Journal of Physiology - Heart and Circulatory Physiology
+American Journal of Physiology - Lung Cellular and Molecular Physiology
+American Journal of Physiology - Regulatory, Integrative and Comparative Physiology
+American Journal of Physiology - Renal Physiology
+American Journal of Physiology - Legacy Content
 American Journal of Science
 The American Journal of Sports Medicine
 The American Journal of Tropical Medicine and Hygiene
@@ -83,7 +83,7 @@ American Orthoptic Journal
 American Politics Research
 The American Review of Public Administration
 American Society of Hematology CME
-American Society of Hematology Self­Assessment Program
+American Society of Hematology Self-Assessment Program
 American Sociological Review
 American Speech
 Analogs for Carbonate Deposition in Early Rift Settings
@@ -103,14 +103,14 @@ The ANNALS of the American Academy of Political and Social Science
 Annals of the Entomological Society of America
 Annals of the ICRP
 Annals of the Rheumatic Diseases
-Answering the Challenges of Production from Deep­Water Reservoirs: Analogues and Case Histories to Aid a New Generation: 28th Annual GCSSEPM Foundation Bob F. Perkins Research Conference
+Answering the Challenges of Production from Deep-Water Reservoirs: Analogues and Case Histories to Aid a New Generation: 28th Annual GCSSEPM Foundation Bob F. Perkins Research Conference
 Anthropological Theory
 Anticancer Research
 Antimicrobial Agents and Chemotherapy
 Antiviral Chemistry and Chemotherapy
 AoB PLANTS
 Application of Modern Stratigraphic Techniques: Theory and Case Histories
-Application of the Principles of Seismic Geomorphology to Continental­Slope and Base­of­Slope Systems: Case Studies from Seafloor and Near­Seafloor Analogues
+Application of the Principles of Seismic Geomorphology to Continental-Slope and Base-of-Slope Systems: Case Studies from Seafloor and Near-Seafloor Analogues
 Applications of Ichnology to Petroleum Exploration
 Applications of Paleomagnetism to Sedimentary Geology
 Applied and Environmental Microbiology
@@ -119,14 +119,14 @@ Applied Ichnology
 Applied Linguistics
 Applied Mathematics Research eXpress
 Applied Psychological Measurement
-Applied Sandstone Diagenesis­­Practical Petrographic Solutions for a Variety of Common Exploration Development and Production Problems
+Applied Sandstone Diagenesis - Practical Petrographic Solutions for a Variety of Common Exploration Development and Production Problems
 Aquifer Characterization
 Arbitration International
 Arbitration Law Reports and Review
 Archives of Clinical Neuropsychology
 Archives of Disease in Childhood
-Archives of Disease in Childhood ­ Education and Practice
-Archives of Disease in Childhood ­ Fetal and Neonatal Edition
+Archives of Disease in Childhood - Education and Practice
+Archives of Disease in Childhood - Fetal and Neonatal Edition
 Arctic Anthropology
 Armed Forces & Society
 Arteriosclerosis, Thrombosis, and Vascular Biology
@@ -136,9 +136,9 @@ ARVO Meeting Abstracts
 ASCO Meeting Abstracts
 ASH Annual Meeting Abstracts
 Asia Pacific Journal of Human Resources
-Asia­Pacific Journal of Public Health
+Asia Pacific Journal of Public Health
 Asia Pacific Media Educator
-Asia­Pacific Journal of Management Research and Innovation
+Asia Pacific Journal of Management Research and Innovation
 Asian and Pacific Migration Journal
 Asian Cardiovascular and Thoracic Annals
 Asian Journal of Legal Education
@@ -149,7 +149,7 @@ Aspects of Diagenesis
 Assessment
 Assessment for Effective Intervention
 Astronomy & Geophysics
-Attributes: New Views on Seismic Imaging ­­ Their Use in Exploration and Production: 31st Annual GCSSEPM Foundation Bob F. Perkins Research Conference
+Attributes: New Views on Seismic Imaging - Their Use in Exploration and Production: 31st Annual GCSSEPM Foundation Bob F. Perkins Research Conference
 Australasian Psychiatry
 Australian & New Zealand Journal of Criminology
 Australian & New Zealand Journal of Psychiatry
