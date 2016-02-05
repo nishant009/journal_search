@@ -1,4 +1,17 @@
-journal-search:
+db:
   image: mongo
   ports:
     - "49155:27017"
+web:
+  restart: always
+  build: ./web
+  expose:
+    - "5000"
+nginx:
+  restart: always
+  image: nginx
+  ports:
+    - "80:80"
+  links:
+    - web:web
+#command: bash -c "python ./data/scripts/seed_data_loader.py -f data/seed.txt"

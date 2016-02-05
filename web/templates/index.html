@@ -1,0 +1,24 @@
+{% extends "_base.html" %}
+
+{% block content %}
+
+<div class="text-center">
+  <h1>Welcome!</h1>
+</div>
+
+<br>
+
+<hr>
+
+<div>
+  The following methods are available:
+  <ul>
+    <li>GET     /v1/journals              list journals</li>
+    <li>POST    /v1/journals              add new journal</li>
+    <li>GET     /v1/journals/{journal_id} display journal</li>
+    <li>PUT     /v1/journals/{journal_id} update journal</li>
+    <li>DELETE  /v1/journals/{journal_id} remove journal</li>
+  </ul>
+</div>
+
+{% endblock %}
