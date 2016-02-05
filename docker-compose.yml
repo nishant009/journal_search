@@ -9,7 +9,7 @@ web:
     - "5000"
 nginx:
   restart: always
-  image: nginx
+  build: ./nginx/
   ports:
     - "80:80"
   links:
