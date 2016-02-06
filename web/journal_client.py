@@ -41,6 +41,12 @@ class JournalClient:
     return self.client.journal_search.journals.find_one({
                 "_id": ObjectId(journal_id)})
 
+  def get_journal_suggestions(self, query):
+    query = "^" + query
+    results = self.client.journal_search.journals.find({
+               "name": {"$regex": query}})
+    return [result.name for result in results]
+
   def update_journal(self, journal_id, new_name):
     today = datetime.today()
 
