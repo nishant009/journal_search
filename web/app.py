@@ -19,19 +19,22 @@ def list_journals():
 
 @app.route("/v1/journals", methods=['POST'])
 def add_journal():
-  return "This method should add a journal"
+  id = __client.add_journal(request.form['name'])
+  return "Added journal with id %s" % id
 
-@app.route("/v1/journals/<journal_id>", methods=['GET'])
-def display_journal(journal_id):
-  return render_template('journal.html', journal=__client.get_journal(journal_id))
-
-@app.route("/v1/journals/<journal_id>", methods=['PUT'])
-def update_journal(journal_id):
-  return "This method should update a journal"
-
-@app.route("/v1/journals/<journal_id>", methods=['DELETE'])
-def delete_journal(journal_id):
-  return "This method should delete a journal"
+@app.route("/v1/journals/<journal_id>", methods=['GET', 'PUT', 'DELETE'])
+def journal(journal_id):
+  if request.method == 'GET':
+    return render_template('journal.html', journal=__client.get_journal(journal_id))
+  elif request.method == 'PUT':
+    res = __client.update_journal(journal_id, request.form['name'])
+    if res:
+      return "Journal updated"
+    else:
+      return "Error updating journal"
+  elif request.method == 'DELETE':
+    __client.delete_journal(journal_id)
+    return "Journal deleted"
 
 if __name__ == "__main__":
   app.run()
