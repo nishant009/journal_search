@@ -14,4 +14,8 @@ nginx:
     - "80:80"
   links:
     - web:web
+redis:
+  image: redis
+  ports:
+    - "49156:6379"
 #command: bash -c "python ./data/scripts/seed_data_loader.py -f data/seed.txt"

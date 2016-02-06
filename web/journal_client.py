@@ -52,7 +52,7 @@ class JournalClient:
                                     'created_at': today.now(),
                                     'updated_at': today.now()
                                   }
-                        }
+                        },
                         return_document=ReturnDocument.AFTER
                       )
     return updated_journal['name'] == new_name
