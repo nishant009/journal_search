@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 
+from bson.objectid import ObjectId
 from pymongo import MongoClient
 
 class JournalClient:
@@ -19,6 +20,10 @@ class JournalClient:
 
     results = []
     for journal in journals:
-      results.append({'id': journal['_id'], 'name': journal['name'].encode('utf-8')})
+      results.append({'id': journal['_id'], 'name': journal['name']})
 
     return results
+
+  def get_journal(self, journal_id):
+    return self.client.journal_search.journals.find_one({
+                "_id": ObjectId(journal_id)})
